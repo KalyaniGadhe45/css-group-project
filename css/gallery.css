@@ -10,21 +10,50 @@
     justify-content:center;
     align-items:center;
     text-align:center;
+    position:relative;
+
+}
+
+.gallery-section,
+.travel-category,
+.gallery-stats,
+.travel-quote{
+background:#FFF8E8;
+}
+
+.gallery-banner::before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.45);
 }
 
 .gallery-banner-content{
+    position:relative;
+    z-index:2;
     max-width:750px;
     color:#fff;
     padding:20px;
 }
 
+.gallery-banner-content{
+    max-width:750px;
+  
+    padding:20px;
+}
+
 .gallery-banner-content h1{
     font-size:58px;
+    color:#fff;
     margin-bottom:20px;
 }
 
 .gallery-banner-content p{
     font-size:20px;
+    color:#fff;
     line-height:1.8;
     margin-bottom:35px;
 }
@@ -80,7 +109,7 @@
     border-radius:20px;
     cursor:pointer;
     background:#fff;
-    box-shadow:0 10px 25px rgba(0,0,0,.12);
+    box-shadow:0 8px 20px rgba(0,0,0,.10);
     transition:.4s;
 }
 
@@ -90,9 +119,9 @@
 
 .gallery-card img{
     width:100%;
-    height: 280px;
+    height: 250px;
     object-fit:cover;
-    
+
 }
 
 .gallery-card:hover img{
@@ -205,7 +234,7 @@
 .travel-quote{
     width:92%;
     margin:80px auto;
-    background:#fff;
+    background:#ffffff;
     border-left:8px solid #ff9800;
     border-radius:20px;
     padding:60px 30px;
@@ -220,7 +249,15 @@
     font-style:italic;
 }
 
-
+.gallery-title h2::after{
+    content:"";
+    display:block;
+    width:70px;
+    height:4px;
+    background:#ff9800;
+    margin:12px auto;
+    border-radius:20px;
+}
 
 @media(max-width:992px){
 
