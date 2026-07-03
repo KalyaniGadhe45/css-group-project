@@ -370,6 +370,32 @@ footer {
     margin-right: 10px;
 }
 
+.quick-link-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.quick-link {
+    display: flex;
+    align-items: center;
+}
+
+.quick-links-icon {
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+}
+
+.quick-link a {
+    text-decoration: none;
+    color: #0b5ed7;
+}
+
+.quick-link a:hover {
+    color: #ff9800;
+}
+
 hr {
     margin: 35px 0 20px;
     border: none;
