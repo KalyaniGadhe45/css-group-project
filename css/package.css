@@ -169,12 +169,12 @@ nav a:hover,
     box-shadow:0 5px 15px rgba(0,0,0,.15);
     position:relative;
     transition:.4s;
-    animation:fadeUp .8s ease;
+    animation:none;
 }
 
 .package-card:hover{
     transform:translateY(-10px);
-    box-shadow:0 15px 30px rgba(0,0,0,.25);
+    box-shadow:0 8px 18px rgba(0,0,0,.15);
 }
 
 .package-card img{
@@ -184,8 +184,9 @@ nav a:hover,
     transition:.5s;
 }
 
-.package-card:hover img{
-    transform:scale(1.1);
+.package-card img{
+    transition:transform .3s ease;
+    will-change:transform;
 }
 
 .badge{
