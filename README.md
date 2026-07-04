@@ -90,7 +90,35 @@
   <img src="https://github.com/manojtoche508-lgtm.png?size=80" width="80" height="80" style="border-radius:50%;" />
  
 </a>
+
 ## 📷 Project Preview
+- Login Page
+
+![Login page](images/project-screenshot/login-page.png)
+
+- Home page
+
+![Home page](images/project-screenshot/home-page.png)
+
+- Destination Page
+
+![Destination page](images/project-screenshot/destination-page.png)
+
+- Packages Page
+
+![Package page](images/project-screenshot/package-page.png)
+
+- Gallery Page
+
+![Gallery Page](images/project-screenshot/gallery-page.png)
+
+- About Page
+
+![About Page](images/project-screenshot/about-page.png)
+
+- Contact Page
+
+![Contact Page](images/project-screenshot/contact-page.png)
 
 
 
