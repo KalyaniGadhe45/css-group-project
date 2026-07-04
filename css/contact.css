@@ -88,7 +88,7 @@ nav a:hover,
 
 .contact-hero {
     width: 98%;
-    height: 70vh;
+    height: 65vh;
     background: linear-gradient(rgba(0, 0, 0, .45), rgba(0, 0, 0, .45)), url("./../images/contact/bg-contact.png");
     background-size: cover;
     background-position: center;
@@ -188,9 +188,6 @@ nav a:hover,
 .contact-form button:hover {
     background: #e65c00;
 }
-
-
-/* how we can help you */
 
 .service-section {
     width: 90%;
@@ -337,7 +334,7 @@ hr {
     color: #333;
 }
 
-@media(max-width:870px) {
+@media(max-width:925px) {
     header {
         flex-direction: column;
         gap: 15px;

@@ -63,9 +63,6 @@ nav a:hover,
     color: #0000ff;
 }
 
-
-/* Profile */
-
 .profile {
     margin-left: 12px;
     flex-shrink: 0;
@@ -84,7 +81,7 @@ nav a:hover,
 }
 
 .hero {
-    height: 80vh;
+    height: 65vh;
     background: url("../images/home/hero_banner_crop.jpg") center/cover no-repeat;
     position: relative;
     width: 98%;

@@ -1,6 +1,6 @@
 .hero {
     width: 95%;
-    height: 450px;
+    height: 65vh;
     margin: 30px auto;
     background: url("../images/package/banner.webp") center/cover no-repeat;
     border-radius: 20px;
