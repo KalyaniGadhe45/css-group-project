@@ -63,9 +63,6 @@ nav a:hover,
     color: #0000ff;
 }
 
-
-/* Profile */
-
 .profile {
     margin-left: 12px;
     flex-shrink: 0;
@@ -82,9 +79,6 @@ nav a:hover,
     color: #ff6b00;
     transform: scale(1.3s);
 }
-
-
-/* Hero */
 
 .contact-hero {
     width: 98%;
@@ -124,9 +118,6 @@ nav a:hover,
 .hero-btn:hover {
     background: #ff9500;
 }
-
-
-/* Contact */
 
 .contact-section {
     width: 90%;
@@ -221,9 +212,6 @@ nav a:hover,
     margin-bottom: 15px;
 }
 
-
-/* Map */
-
 .map {
     padding: 50px;
     text-align: center;
@@ -235,9 +223,6 @@ nav a:hover,
     border: none;
     border-radius: 10px;
 }
-
-
-/* Responsive */
 
 @media(max-width:768px) {
     .contact-section,
