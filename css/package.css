@@ -45,6 +45,9 @@
 .package-card {
     background: #fff;
     border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     overflow: hidden;
     box-shadow: 0 8px 25px rgba(0, 0, 0, .15);
     transition: .4s;
@@ -130,16 +133,19 @@
     padding: 12px;
     background: #0d6efd;
     border: none;
+    margin: 20px auto;
     color: white;
+    text-align: center;
+    margin-top: auto;
     font-size: 16px;
     text-decoration: none;
     border-radius: 25px;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .book-btn:hover {
     background: #ff6600;
-    transition: 0.3s;
 }
 
 @media(max-width:992px) {
