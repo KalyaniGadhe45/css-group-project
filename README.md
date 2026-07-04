@@ -64,31 +64,8 @@
 
 ## 👥 Contributors
 
-<a href="https://github.com/KalyaniGadhe45">
-  <img src="https://github.com/KalyaniGadhe45.png?size=80" width="80" height="80" style="border-radius:50%;" />
-</a>
-<a href="https://github.com/nagadesakshi">
-  <img src="https://github.com/nagadesakshi.png?size=80" width="80" height="80" style="border-radius:50%;" />
-</a>
-</a>
-<a href="https://github.com/Kaweri05">
-  <img src="https://github.com/Kaweri05.png?size=80" width="80" height="80" style="border-radius:50%;" />
-</a>
-
-
-<a href="https://github.com/pranalishende">
-  <img src="https://github.com/pranalishende.png?size=80" width="80" height="80" style="border-radius:50%;" />
-</a>
-<a href="https://github.com/https://github.com/anushkagangekar-collab">
-  <img src="https://github.com/anushkagangekar-collab.png?size=80" width="80" height="80" style="border-radius:50%;" />
-</a>
-<a href="https://github.com/shubhamsharnagate">
-  <img src="https://github.com/shubhamsharnagate.png?size=80" width="80" height="80" style="border-radius:50%;" />
- 
-</a>
-<a href="https://github.com/manojtoche508-lgtm">
-  <img src="https://github.com/manojtoche508-lgtm.png?size=80" width="80" height="80" style="border-radius:50%;" />
- 
+<a href="https://github.com/KalyaniGadhe45/css-group-project/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=KalyaniGadhe45/css-group-project" />
 </a>
 
 ## 📷 Project Preview
