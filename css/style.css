@@ -21,8 +21,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    top: 20px;
     z-index: 1000;
+    top: 20px;
+    position: sticky;
     box-shadow: 0 9px 12px rgba(32, 30, 30, 0.12);
 }
 
