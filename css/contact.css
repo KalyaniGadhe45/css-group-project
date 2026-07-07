@@ -224,6 +224,37 @@ nav a:hover,
     border-radius: 10px;
 }
 
+@media (max-width:768px) {
+    header {
+        width: 98%;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+    .logo img {
+        width: 38px;
+        height: 38px;
+    }
+    .logo h2 {
+        font-size: 18px;
+        white-space: nowrap;
+    }
+    nav {
+        display: flex;
+        gap: 6px;
+        flex-wrap: nowrap;
+    }
+    nav a {
+        font-size: 12px;
+    }
+    .profile img {
+        width: 32px;
+        height: 32px;
+    }
+}
+
 @media(max-width:768px) {
     .contact-section,
     .why-us {
@@ -317,29 +348,4 @@ hr {
     font-size: 16px;
     font-weight: 500;
     color: #333;
-}
-
-@media(max-width:925px) {
-    header {
-        flex-direction: column;
-        gap: 15px;
-    }
-    nav {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .hero-content h1 {
-        font-size: 32px;
-    }
-    .hero-content p {
-        font-size: 17px;
-    }
-    .hero-btn {
-        flex-direction: column;
-        align-items: center;
-    }
-    .welcome h2,
-    .section-title h2 {
-        font-size: 32px;
-    }
 }

@@ -96,12 +96,32 @@ body {
 
 @media(max-width:768px) {
     header {
-        flex-direction: column;
-        gap: 20px;
+        width: 98%;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+    .logo img {
+        width: 38px;
+        height: 38px;
+    }
+    .logo h2 {
+        font-size: 18px;
+        white-space: nowrap;
     }
     nav {
-        flex-wrap: wrap;
-        justify-content: center;
+        display: flex;
+        gap: 6px;
+        flex-wrap: nowrap;
+    }
+    nav a {
+        font-size: 12px;
+    }
+    .profile img {
+        width: 32px;
+        height: 32px;
     }
     .banner h1 {
         font-size: 35px;
